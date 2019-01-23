@@ -1,0 +1,25 @@
+{
+  "name": "graphql-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rymanalu@github.com/rymanalu/learn-graphql-server.git"
+  },
+  "author": "Roni Yusuf <rymanalu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rymanalu/learn-graphql-server/issues"
+  },
+  "homepage": "https://github.com/rymanalu/learn-graphql-server#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11"
+  }
+}
