@@ -1,10 +1,13 @@
 const express = require('express')
 const graphqlHttp = require('express-graphql')
 const mongoose = require('mongoose')
+const cors = require('cors')
 
 const schema = require('./schema/schema')
 
 const app = express()
+
+app.use(cors())
 
 // Connect to mLab database
 mongoose.connect('mongodb://roni:tes123@ds113815.mlab.com:13815/gqlroni', { useNewUrlParser: true })
